@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ct2_viewFlipper">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct2_page1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Please Select Condition and Path"
+                    android:id="@+id/textView9"
+                    android:layout_marginBottom="58dp"
+                    android:enabled="true"/>
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Path 2"
+                        android:id="@+id/ct2_radioButton0"
+                        android:layout_gravity="center_horizontal"
+                        android:checked="true"
+                        android:clickable="true" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Path 1"
+                        android:id="@+id/ct2_radioButton1"
+                        android:layout_gravity="center_horizontal"
+                        android:checked="true"
+                        android:clickable="true" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Control"
+                        android:id="@+id/ct2_radioButton2"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:checked="false" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mirror 1"
+                        android:id="@+id/ct2_radioButton3"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:checked="false" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mirror 2"
+                        android:id="@+id/ct2_radioButton4"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:checked="false" />
+                </RadioGroup>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:text="Path One"
+                    android:id="@+id/ct2_path1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true" />
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:text="Path Two"
+                    android:id="@+id/ct2_path2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:text="Path Three"
+                    android:id="@+id/ct2_path3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:text="Path Four"
+                    android:id="@+id/ct2_path4"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Current heading: 360 degrees"
+                android:id="@+id/ct2_headingText"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct2_page2">
+
+            <Button
+                style="@style/btnStyleGreen"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Start Test"
+                android:id="@+id/ct2_start_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="234dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="..."
+                android:id="@+id/ct2_path_chosen"
+                android:layout_above="@+id/ct2_start_test"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:enabled="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct2_page3">
+
+            <Button
+                style="@style/btnStyleGreen"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Finish Test"
+                android:id="@+id/ct2_test_finished"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="234dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct2_page4">
+
+            <Button
+                style="@style/btnStyleGreen"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="YES"
+                android:id="@+id/ct2_yes"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="234dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"/>
+
+            <Button
+                style="@style/btnStyleGreen"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="NO"
+                android:id="@+id/ct2_no"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="234dp"
+                android:layout_below="@+id/ct2_yes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="48dp"
+                android:enabled="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Did you notice any disturbance in the sound signal?"
+                android:id="@+id/textView17"
+                android:layout_above="@+id/ct2_yes"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:enabled="true"/>
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

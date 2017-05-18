@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="compasssounds.compasssounds" >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+=======
+    <uses-permission android:name="com.samsung.android.sdk.professionalaudio.permission.START_MONITOR_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+>>>>>>> origin/Christoph
+=======
+    <uses-permission android:name="com.samsung.android.sdk.professionalaudio.permission.START_MONITOR_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+>>>>>>> origin/Christoph
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboard">
+            <intent-filter>
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-fdsppv7k65jst0c" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ParticipantActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExperimenterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NewParticipantActivity"
+            android:label="New Participant"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTaskOne"
+            android:label="Task One"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTaskTwo"
+            android:label="Task Two"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+        android:name=".ChristophTaskThree"
+        android:label="Task Three"
+        android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTaskFour"
+            android:label="Task Four"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophWaitTask"
+            android:label="Wait"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTaskSet"
+            android:label="Tasks"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophFamiliarityTask"
+            android:label="Tasks"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AdjustsCodingActivity"
+            android:label="Adjust Coding"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophSessionComplete"
+            android:label="Session Complete"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTestChoicePage"
+            android:label="Test Choice"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTest1"
+            android:label="Twisted Signal Training"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTest2"
+            android:label="Distortion Detection"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophTest3"
+            android:label="Interference"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophEditTestParamsChoice"
+            android:label="Set Test Parameters"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChristophEditTestParams"
+            android:label="Set Test Conditions"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".ChristophTaskFive"
+            android:label="Task Five"
+            android:screenOrientation="portrait">
+        </activity>
+        <service
+            android:name="CompassSoundService"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/CompassSoundService">
+        </service>
+        <service
+            android:name=".SamsungService"
+            android:label="AudioCompassSamsungJackService" >
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.professionalaudio.plugin.PICK" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="AudioCompassSamsungJackService" android:value="1;Simple v1.0;AudioCompassSamsungJackService;libsimple_sine.so;;a simple plugin generating a sine wave" />
+        <receiver android:name=".SmsListener">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/classes-87f92dedad3dcafdbf434cd2f596851a979c8e92.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/support-annotations-21.0.3-fe3a18464d59a20780c106b3c94597ec2e9c845f.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/classes-686edeebb54d4d4672ff6486b4ec47867356ff4f.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/libs/dropbox-android-sdk-1.6.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/dropbox-android-sdk-1.6.3-e861c611a80bee2ff7a006cf9f0297b9e2d5e61a.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/classes-b40dac706944c76f868d8bbd12422c56f4a28e18.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a01a264c41fb2581edf29aefadcf6569ba35a5c5.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/libs/sdk-v1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/sdk-v1.0.0-77a6570365f3e9b14dd6e16e22f1edf1b3916653.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/classes-d9e34e48152d089fba633e48a977e0770d53fea1.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/libs/professionalaudio-v2.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="43bd3ab0e9e01f3fd3ce0c9b0526321075312bb0">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/professionalaudio-v2.1.0-1e79590bc13312943d8550d72e6a5f8124ea0424.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/libs/json_simple-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/json_simple-1.1-0f5df3605fd0bc2f92d7c1989ad6e3566b252830.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-7819beac5bfb6bf5ce0025d189e9b622dff06c7e.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/libs/httpmime-4.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd1973851926925e02d0bbdf4ec0f7435d8292ce">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/httpmime-4.0.3-50bc9e1ae6e2ae1818be782787aaf59ef12f8d23.jar" />
+    </item>
+    <item
+        jar="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/AnnikaHomeDisk/AuditoryCompassGroup/app/build/intermediates/pre-dexed/l/debug/internal_impl-21.0.3-f5798b62b63553b1877ba788e3b30b1f3b1d8fc1.jar" />
+    </item>
+
+</items>

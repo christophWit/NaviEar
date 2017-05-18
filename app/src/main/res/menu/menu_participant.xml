@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".StartUpActivity">
+    <item android:id="@+id/action_setup" android:title = "Setup"
+        android:orderInCategory="50" app:showAsAction="never" />
+    <item android:id="@+id/action_audioCompass" android:title = "Stop AudioCompass Engine"
+        android:orderInCategory="50" app:showAsAction="never" />
+    <item android:id="@+id/action_sendLog" android:title="Send Log File to DropBox"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_tareSensor" android:title="Tare Sensor"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

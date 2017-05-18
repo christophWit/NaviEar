@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/ui_preference">
+        <CheckBoxPreference android:key="reversed_ring_preference"
+            android:title="@string/title_reversed_ring_preference"
+            android:summary="@string/summary_reversed_ring_preference"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_graphics_preference">
+        <ListPreference android:defaultValue="medium"
+            android:key="details_preference" android:title="@string/title_details_preference"
+            android:summary="@string/summary_details_preference"
+            android:entryValues="@array/entryvalues_details_preference"
+            android:entries="@array/entries_details_preference"
+            android:dialogTitle="@string/dialog_title_details_preference"/>
+
+        <CheckBoxPreference android:key="fullscreen_preference"
+            android:title="@string/fullscreen_preference"
+            android:summary="@string/summary_fullscreen_preference"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CompassSounds</string>
+    <string name="familiarQ">Please indicate (1-5):</string>
+    <string name="familiarQ2">1. How often you have been here</string>
+    <string name="familiarQ3">2. How confidently you orient (N,E,S,W)</string>
+    <string name="familiarQ4">3. How loud it is around you</string>
+    <string name="t1p1Inst1">Trial _/8:</string>
+    <string name="t1p1Inst2">Word-to-pointing!</string>
+    <string name="t1p1Inst3">Point with your head/nose to the direction displayed on the screen. Touch the screen to begin - touch again to give your head orientation as the response.</string>
+    <string name="t1p2Inst1">...</string>
+    <string name="t1p2Inst2">Point with your head and touch the screen ...</string>
+    <string name="t1p3Inst2">Next time, the NaviEar stays on. Give your response as before.</string>
+
+    <string name="t1p4Inst1">PLACEHOLDER WEST</string>
+
+    <string name="button_disc">DISCARD</string>
+
+    <string name="good_luck">Good Luck!</string>
+    <string name="t2_instructions1">Sound-to-pointing!</string>
+    <string name="t2_instructions2">Point with your head/nose towards the direction indicated by the probe sound. Touch the screen to start - touch again to give your head orientation as the response.</string>
+
+    <string name="t2_instructions4">Next time, the NaviEar signal will stay on. You can use it to find the right response.</string>
+
+    <string name="t2_listen">Listen to the tone...</string>
+    <string name="t2_listen2">Listen to the tone...</string>
+    <string name="t2_point">Now, point with your head, then touch the screen.</string>
+    <string name="t2_point2">Now, listen to NaviEar, point with your head, then touch the screen.</string>
+
+    <string name="t3_p1instructions1">Sound-to-word!</string>
+    <string name="t3_p1instructions2">Press the button indicated by the probe sound. Touch the screen to start.</string>
+    <string name="t3_p2listen">Listen to the tone...</string>
+    <string name="t3_p2probe"> </string>
+    <string name="t3_p3instructions2">Next time, the NaviEar will switch on after the probe was played - you can use it to identify the probe orientation.</string>
+    <string name="t3_p4select">Select the direction indicated by this tone.</string>
+    <string name="t3_p4listen" >Listen to the tone and press the respective button.</string>
+    <string name="t3_p2select">Select the direction indicated by this tone.</string>
+    <string name="t3_p5instructions2">Next time, there will be a short break before you can give your response.</string>
+    <string name="t3_p6wait" >Wait...</string>
+    <string name="t3_p6select" >Select the direction indicated by the tone.</string>
+    <string name="t4p1Inst">Walk up to the next intersection and draw a North-oriented map of the crossing roads. Click the -START drawing a map- button below when you are facing the intersection that you will draw.</string>
+    <string name="t4p1button_start">START drawing a map</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="CompassSoundService">Compass Sounds Service</string>
+    <string name="service_started">AudioCompass activity is running...</string>
+    <string name="service_label">AudioCompass Activity</string>
+    <string name="title_reversed_ring_preference">Reversed ring graduations</string>
+    <string name="summary_reversed_ring_preference">Reverse the graduations on the ring so that it shows the actual heading</string>
+    <string name="ui_preference">User interface</string>
+    <string name="title_graphics_preference">Graphics</string>
+    <string name="title_details_preference">Level of details</string>
+    <string name="summary_details_preference">Increase the level of details for improved graphics</string>
+    <string-array name="entries_details_preference"><item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="entryvalues_details_preference"><item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+    <string name="dialog_title_details_preference">Choose the level of details</string>
+    <string name="fullscreen_preference">Fullscreen</string>
+    <string name="summary_fullscreen_preference">Display the compass without the status bar</string>
+    <string name="settings">Settings</string>
+    <string name="heading">Heading</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedbackDegree">You were off by __° to the __!</string>
+    <string name="task_complet">Task Complete!</string>
+    <string name="training_complete">Congrats!! You have completed your training session.</string>
+    <string name="training_complete2">Feel free to start another one. Touching the screen will bring you back to the home screen.</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="none_paired">None paired</string>
+    <string name="scanning">Scanning...</string>
+    <string name="select_device">Select Device</string>
+    <string name="none_found">None found</string>
+    <string name="t5p1Intro">Angle-size estimation task: move left/right to indicate the direction of the distance.</string>
+    <string name="t5p1Inst5">Listen to the tones and tell the difference</string>
+    <string name="t5p1Inst2">You will hear two tones in quick succession - listen to them and indicate how far left/right the second sound is with respect to the first.</string>
+    <string name="t5p1Inst3">Press screen to continue</string>
+    <string name="t5p2Inst5">Listen to the tones...</string>
+    <string name="t5p2Inst2">...</string>
+    <string name="t5p3Inst2">Hello</string>
+    <string name="t5p3Inst1" />
+    <string name="t5p4Inst5">Press button to go to next trial</string>
+</resources>
+
+

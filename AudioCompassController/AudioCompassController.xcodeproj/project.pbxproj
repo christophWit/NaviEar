@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9438BC1AB352E700EF2153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9438BB1AB352E700EF2153 /* AppDelegate.swift */; };
+		1A9438BE1AB352E700EF2153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9438BD1AB352E700EF2153 /* Images.xcassets */; };
+		1A9438C11AB352E700EF2153 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9438BF1AB352E700EF2153 /* MainMenu.xib */; };
+		1A9438CD1AB352E700EF2153 /* AudioCompassControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9438CC1AB352E700EF2153 /* AudioCompassControllerTests.swift */; };
+		1A9438D71AB35F7C00EF2153 /* BluetoothInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9438D61AB35F7C00EF2153 /* BluetoothInterface.swift */; };
+		1A9438D91AB361AD00EF2153 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9438D81AB361AD00EF2153 /* IOBluetooth.framework */; };
+		1A9438DB1AB361FC00EF2153 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9438DA1AB361FC00EF2153 /* IOBluetoothUI.framework */; };
+		1A9438DE1AB3B31F00EF2153 /* BluetoothController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9438DD1AB3B31F00EF2153 /* BluetoothController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9438C71AB352E700EF2153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9438AE1AB352E700EF2153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9438B51AB352E700EF2153;
+			remoteInfo = AudioCompassController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9438B61AB352E700EF2153 /* AudioCompassController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCompassController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9438BA1AB352E700EF2153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9438BB1AB352E700EF2153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A9438BD1AB352E700EF2153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A9438C01AB352E700EF2153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A9438C61AB352E700EF2153 /* AudioCompassControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioCompassControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9438CB1AB352E700EF2153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9438CC1AB352E700EF2153 /* AudioCompassControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCompassControllerTests.swift; sourceTree = "<group>"; };
+		1A9438D61AB35F7C00EF2153 /* BluetoothInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothInterface.swift; sourceTree = "<group>"; };
+		1A9438D81AB361AD00EF2153 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		1A9438DA1AB361FC00EF2153 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		1A9438DC1AB3637200EF2153 /* AudioCompass-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioCompass-BridgingHeader.h"; sourceTree = "<group>"; };
+		1A9438DD1AB3B31F00EF2153 /* BluetoothController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9438B31AB352E700EF2153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9438DB1AB361FC00EF2153 /* IOBluetoothUI.framework in Frameworks */,
+				1A9438D91AB361AD00EF2153 /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9438C31AB352E700EF2153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9438AD1AB352E700EF2153 = {
+			isa = PBXGroup;
+			children = (
+				1A9438DA1AB361FC00EF2153 /* IOBluetoothUI.framework */,
+				1A9438D81AB361AD00EF2153 /* IOBluetooth.framework */,
+				1A9438B81AB352E700EF2153 /* AudioCompassController */,
+				1A9438C91AB352E700EF2153 /* AudioCompassControllerTests */,
+				1A9438B71AB352E700EF2153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9438B71AB352E700EF2153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9438B61AB352E700EF2153 /* AudioCompassController.app */,
+				1A9438C61AB352E700EF2153 /* AudioCompassControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9438B81AB352E700EF2153 /* AudioCompassController */ = {
+			isa = PBXGroup;
+			children = (
+				1A9438BB1AB352E700EF2153 /* AppDelegate.swift */,
+				1A9438BD1AB352E700EF2153 /* Images.xcassets */,
+				1A9438BF1AB352E700EF2153 /* MainMenu.xib */,
+				1A9438B91AB352E700EF2153 /* Supporting Files */,
+				1A9438DD1AB3B31F00EF2153 /* BluetoothController.swift */,
+				1A9438D61AB35F7C00EF2153 /* BluetoothInterface.swift */,
+				1A9438DC1AB3637200EF2153 /* AudioCompass-BridgingHeader.h */,
+			);
+			path = AudioCompassController;
+			sourceTree = "<group>";
+		};
+		1A9438B91AB352E700EF2153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9438BA1AB352E700EF2153 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9438C91AB352E700EF2153 /* AudioCompassControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9438CC1AB352E700EF2153 /* AudioCompassControllerTests.swift */,
+				1A9438CA1AB352E700EF2153 /* Supporting Files */,
+			);
+			path = AudioCompassControllerTests;
+			sourceTree = "<group>";
+		};
+		1A9438CA1AB352E700EF2153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9438CB1AB352E700EF2153 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9438B51AB352E700EF2153 /* AudioCompassController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9438D01AB352E800EF2153 /* Build configuration list for PBXNativeTarget "AudioCompassController" */;
+			buildPhases = (
+				1A9438B21AB352E700EF2153 /* Sources */,
+				1A9438B31AB352E700EF2153 /* Frameworks */,
+				1A9438B41AB352E700EF2153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioCompassController;
+			productName = AudioCompassController;
+			productReference = 1A9438B61AB352E700EF2153 /* AudioCompassController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A9438C51AB352E700EF2153 /* AudioCompassControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9438D31AB352E800EF2153 /* Build configuration list for PBXNativeTarget "AudioCompassControllerTests" */;
+			buildPhases = (
+				1A9438C21AB352E700EF2153 /* Sources */,
+				1A9438C31AB352E700EF2153 /* Frameworks */,
+				1A9438C41AB352E700EF2153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9438C81AB352E700EF2153 /* PBXTargetDependency */,
+			);
+			name = AudioCompassControllerTests;
+			productName = AudioCompassControllerTests;
+			productReference = 1A9438C61AB352E700EF2153 /* AudioCompassControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9438AE1AB352E700EF2153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Alvarez";
+				TargetAttributes = {
+					1A9438B51AB352E700EF2153 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1A9438C51AB352E700EF2153 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1A9438B51AB352E700EF2153;
+					};
+				};
+			};
+			buildConfigurationList = 1A9438B11AB352E700EF2153 /* Build configuration list for PBXProject "AudioCompassController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A9438AD1AB352E700EF2153;
+			productRefGroup = 1A9438B71AB352E700EF2153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9438B51AB352E700EF2153 /* AudioCompassController */,
+				1A9438C51AB352E700EF2153 /* AudioCompassControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9438B41AB352E700EF2153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9438BE1AB352E700EF2153 /* Images.xcassets in Resources */,
+				1A9438C11AB352E700EF2153 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9438C41AB352E700EF2153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9438B21AB352E700EF2153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9438DE1AB3B31F00EF2153 /* BluetoothController.swift in Sources */,
+				1A9438D71AB35F7C00EF2153 /* BluetoothInterface.swift in Sources */,
+				1A9438BC1AB352E700EF2153 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9438C21AB352E700EF2153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9438CD1AB352E700EF2153 /* AudioCompassControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A9438C81AB352E700EF2153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9438B51AB352E700EF2153 /* AudioCompassController */;
+			targetProxy = 1A9438C71AB352E700EF2153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A9438BF1AB352E700EF2153 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9438C01AB352E700EF2153 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9438CE1AB352E700EF2153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A9438CF1AB352E700EF2153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A9438D11AB352E800EF2153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioCompassController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioCompassController/AudioCompass-BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		1A9438D21AB352E800EF2153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioCompassController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioCompassController/AudioCompass-BridgingHeader.h";
+			};
+			name = Release;
+		};
+		1A9438D41AB352E800EF2153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioCompassControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCompassController.app/Contents/MacOS/AudioCompassController";
+			};
+			name = Debug;
+		};
+		1A9438D51AB352E800EF2153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioCompassControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCompassController.app/Contents/MacOS/AudioCompassController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9438B11AB352E700EF2153 /* Build configuration list for PBXProject "AudioCompassController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9438CE1AB352E700EF2153 /* Debug */,
+				1A9438CF1AB352E700EF2153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9438D01AB352E800EF2153 /* Build configuration list for PBXNativeTarget "AudioCompassController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9438D11AB352E800EF2153 /* Debug */,
+				1A9438D21AB352E800EF2153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9438D31AB352E800EF2153 /* Build configuration list for PBXNativeTarget "AudioCompassControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9438D41AB352E800EF2153 /* Debug */,
+				1A9438D51AB352E800EF2153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A9438AE1AB352E700EF2153 /* Project object */;
+}

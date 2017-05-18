@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewFlipper1">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t1_page1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/t1p1Inst1"
+            android:id="@+id/t1p1Instr1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/t1p1Inst2"
+            android:id="@+id/t1p1Inst2"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/t1p1Instr1"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/t1p1Inst3"
+            android:id="@+id/t1p1Instr3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/t1p1Inst2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/good_luck"
+            android:id="@+id/t1p1GoodLuck"
+            android:layout_below="@+id/t1p1Instr3"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t1_page2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/t1p2Inst1"
+                android:id="@+id/t1p2firstLabel"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/t1p2Inst2"
+                android:id="@+id/t1p2Inst2"
+                android:layout_below="@+id/t1p2firstLabel"
+                android:layout_marginTop="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t1_page3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/feedback"
+                android:id="@+id/t1p3fbLabel"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp" />
+
+            <compasssounds.compasssounds.CompassFeedbackView
+                android:id="@+id/t1p3feedbackView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/t1p3fbLabel"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/feedbackDegree"
+                android:id="@+id/t1p3fbDegree"
+                android:layout_below="@+id/t1p3feedbackView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(Your response is the red line)"
+                android:id="@+id/t1p3fbLabelRL"
+                android:layout_below="@+id/t1p3fbDegree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/t1p3Inst2"
+                android:id="@+id/t1p3Inst2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="130dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t1_page4">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/t1p4Inst1"
+                android:id="@+id/t1p4secondLabel"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/t1p2Inst2"
+                android:id="@+id/t1p4Inst2"
+                android:layout_below="@+id/t1p4secondLabel"
+                android:layout_marginTop="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/t1_page5">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Feedback"
+                android:id="@+id/t1p5fbLabel"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp" />
+
+            <compasssounds.compasssounds.CompassFeedbackView
+                android:id="@+id/t1p5feedbackView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/t1p5fbLabel"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/feedbackDegree"
+                android:id="@+id/t1p5fbDegree"
+                android:layout_below="@+id/t1p5feedbackView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(Your response is the red line)"
+                android:id="@+id/t1p5fbLabelRL"
+                android:layout_below="@+id/t1p5fbDegree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Task Complete!"
+                android:id="@+id/t1_p5_task_complete"
+                android:layout_below="@+id/t1p5feedbackView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="156dp" />
+
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

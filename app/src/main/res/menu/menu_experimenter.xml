@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".StartUpActivity">
+    <item android:id="@+id/action_backToParticipantPage" android:title = "Back to Participant Page"
+        android:orderInCategory="50" app:showAsAction="never" />
+    <item android:id="@+id/action_audioCompass" android:title = "Start AudioCompass Engine"
+        android:orderInCategory="50" app:showAsAction="never" />
+    <item android:id="@+id/action_pauseAudioCompass" android:title = "Send pause command"
+        android:orderInCategory="50" app:showAsAction="never" />
+    <item android:id="@+id/action_newParticipant" android:title="New Participant"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!--<item android:id="@+id/action_sendFakeSMS" android:title="Send Fake SMS"
+        android:orderInCategory="100" app:showAsAction="never" />-->
+    <item android:id="@+id/action_setPass" android:title="Set password"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_adjustCoding" android:title="Adjust Coding"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_latencyTest" android:title="Latency Test Mode"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_page"
+        android:title="Tests"/>
+    <item
+        android:id="@+id/action_end_current_task"
+        android:title="End current Task set"/>
+    <item
+        android:id="@+id/action_setConditions"
+        android:title="Set Test Conditions"/>
+    <item android:id="@+id/action_tareSensor" android:title="Tare Sensor"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_ITI" android:title="Adjust ITI"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/action_startBT"
+        android:title="Enable Bluetooth Connections"/>
+    <item
+        android:id="@+id/action_discoverable"
+        android:title="Ensure BT Discoverable"/>-->
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ct3_viewFlipper">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct3_page1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Please Select Conditions to start"
+                    android:id="@+id/textView9"
+                    android:layout_marginBottom="58dp"
+                    android:enabled="true"/>
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Int 1"
+                        android:id="@+id/ct3_radioButton1"
+                        android:layout_gravity="center_horizontal"
+                        android:checked="true"
+                        android:clickable="true" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Control"
+                        android:id="@+id/ct3_radioButton2"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:checked="false" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Int 2"
+                        android:id="@+id/ct3_radioButton3"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:checked="false" />
+                </RadioGroup>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:text="Int. 1: NE"
+                    android:id="@+id/ct3_condition1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true" />
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:text="Int. 2: SE"
+                    android:id="@+id/ct3_condition2"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:text="Int. 3: SW"
+                    android:id="@+id/ct3_condition3"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+                <Button
+                    style="@style/btnStyleGreen"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:text="Int. 4: NW"
+                    android:id="@+id/ct3_condition4"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:enabled="true"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Current direction: 360 degrees"
+                android:id="@+id/ct3_headingText"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ct3_page2">
+            <Button
+                style="@style/btnStyleGreen"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:text="Finish Test"
+                android:id="@+id/ct3_test_finished"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="234dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"/>
+        </RelativeLayout>
+    </ViewFlipper>
+
+</LinearLayout>

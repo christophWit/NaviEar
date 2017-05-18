@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26EA274E-26EF-4C5C-ABB6-7B0D59BF6DA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudioCompassController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CA242D32475A7347E436986375926B2416BF807</key>
+		<string>https://github.com/AnnikaLub/AuditoryCompassGroup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudioCompassController/AudioCompassController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CA242D32475A7347E436986375926B2416BF807</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AnnikaLub/AuditoryCompassGroup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CA242D32475A7347E436986375926B2416BF807</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CA242D32475A7347E436986375926B2416BF807</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AuditoryCompassGroup</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="beginning|middle|end"
+        android:stretchColumns="1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView15"
+                android:text="Transform"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textView13"
+                android:text="Constant"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textView14"
+                android:text="Multiplier"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Azimuth"
+                android:id="@+id/textView16" />
+
+            <EditText
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ct1_azimuthConstant" />
+
+            <EditText
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ct1_azimuthMultiplier" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:text="Amplitude"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textView23"
+                android:text="Centre"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textView24"
+                android:text="Width"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/ct1_distortionAmplitude" />
+
+            <EditText
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ct1_distortionCentre" />
+
+            <EditText
+                android:padding="10dip"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ct1_distortionWidth" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        style="@style/btnStyleGreen"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Start Tasks"
+        android:id="@+id/ct1_start_tasks"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        style="@style/btnStyleBlue"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Twisted Signal"
+        android:id="@+id/button_start_test_1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:layout_above="@+id/button_start_test_2"
+        android:layout_marginBottom="5dp"
+        android:layout_alignStart="@+id/button_start_test_2" />
+    <Button
+        style="@style/btnStyleBlue"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Distortion Detection"
+        android:id="@+id/button_start_test_2"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/btnStyleBlue"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Interference"
+        android:id="@+id/button_start_test_3"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:layout_below="@+id/button_start_test_2"
+        android:layout_marginTop="5dp"
+        android:layout_alignStart="@+id/button_start_test_2" />
+
+    <Button
+        style="@style/btnStyleBlue"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="End Testing (Reset params)"
+        android:id="@+id/button_end_tests"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:layout_below="@+id/button_start_test_3"
+        android:layout_marginTop="5dp"
+        android:layout_alignStart="@+id/button_start_test_3" />
+
+</RelativeLayout>
